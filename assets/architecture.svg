@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-labelledby="title desc">
+<title id="title">Tradesperson lead capture workflow architecture</title><desc id="desc">Customer enquiry flows through n8n validation, email notifications and lead storage, with a dashboard API reading and updating lead status.</desc>
+<rect width="1120" height="440" rx="22" fill="#f8fafc"/>
+<text x="56" y="58" font-family="Arial,sans-serif" font-size="26" font-weight="700" fill="#0f172a">Lead capture &amp; dashboard automation</text>
+<text x="56" y="88" font-family="Arial,sans-serif" font-size="15" fill="#475569">High-level architecture • illustrative overview</text>
+<g font-family="Arial,sans-serif">
+<rect x="55" y="150" width="190" height="110" rx="14" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+<text x="150" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Customer form</text><text x="150" y="220" text-anchor="middle" font-size="13" fill="#475569">New enquiry</text>
+<path d="M245 205H300m-10 -8 10 8 -10 8" stroke="#64748b" stroke-width="3" fill="none"/>
+<rect x="305" y="150" width="205" height="110" rx="14" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+<text x="407" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#1e3a8a">n8n workflow</text><text x="407" y="220" text-anchor="middle" font-size="13" fill="#1e40af">Validate &amp; clean data</text>
+<path d="M510 205H565m-10 -8 10 8 -10 8" stroke="#64748b" stroke-width="3" fill="none"/>
+<rect x="570" y="125" width="220" height="70" rx="12" fill="#dcfce7" stroke="#4ade80" stroke-width="2"/>
+<text x="680" y="154" text-anchor="middle" font-size="16" font-weight="700" fill="#14532d">Email notifications</text><text x="680" y="177" text-anchor="middle" font-size="12" fill="#166534">Customer + business owner</text>
+<rect x="570" y="215" width="220" height="70" rx="12" fill="#fef3c7" stroke="#fbbf24" stroke-width="2"/>
+<text x="680" y="244" text-anchor="middle" font-size="16" font-weight="700" fill="#78350f">Leads Data Table</text><text x="680" y="267" text-anchor="middle" font-size="12" fill="#92400e">Store valid enquiries</text>
+<path d="M790 250H850V205H890m-10 -8 10 8 -10 8" stroke="#64748b" stroke-width="2" fill="none"/>
+<rect x="895" y="150" width="170" height="110" rx="14" fill="#ede9fe" stroke="#a78bfa" stroke-width="2"/>
+<text x="980" y="192" text-anchor="middle" font-size="18" font-weight="700" fill="#4c1d95">Dashboard API</text><text x="980" y="220" text-anchor="middle" font-size="13" fill="#5b21b6">List / update status</text>
+<path d="M980 260V320H680V285" stroke="#64748b" stroke-width="2.5" stroke-dasharray="7 6" fill="none"/>
+<text x="830" y="344" text-anchor="middle" font-size="12" fill="#475569">Reads leads and updates callback status</text>
+<text x="56" y="400" font-size="12" fill="#64748b">Conceptual diagram only — no production endpoints, secrets, or customer information.</text>
+</g></svg>
